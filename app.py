@@ -145,7 +145,7 @@ def scan_timeframe(tf, reference, all_data, end_date):
 
     target_norm = target / target[0, 3] - 1
     target_close = target_norm[:, 3]
-    target_start = target_df.index[0]
+    target_start = target_df.index[-PATTERN_LENGTH]
 
     pieces = []
     total_windows = 0
