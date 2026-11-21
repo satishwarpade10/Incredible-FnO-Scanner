@@ -30,7 +30,7 @@ class MainActivity : Activity() {
         if (savedInstanceState != null && webView.restoreState(savedInstanceState) != null) {
             return
         }
-        webView.loadUrl("https://onvtxmevsk.streamlit.app/")
+        webView.loadUrl("https://incredible-fno-scanner-jrgkbmyyjzaqbnvtxmevsk.streamlit.app/")
     }
     override fun onSaveInstanceState(outState: Bundle) {
         webView.saveState(outState)
